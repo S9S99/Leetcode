@@ -1,2 +1,2 @@
 # Leetcode
-solve leetcode problems
+study with leetcode
