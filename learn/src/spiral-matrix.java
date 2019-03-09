@@ -4,7 +4,6 @@ class Solution {
             return new ArrayList<>();
         }
         
-        // List<Integer> result = new int[matrix.length * matrix[0].length];
         List<Integer> result = new ArrayList<>();
         
         int index = 0;
