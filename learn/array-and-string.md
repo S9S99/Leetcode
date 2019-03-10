@@ -21,4 +21,5 @@
 ## Two-pointer Technique - Scenario I
 - 포인터를 두개를 사용해서 배열 접근
 - 정렬 등에 활용 가능
-## 
+## Two-pointer Technique - Scenario II
+- 기본적으로 위와 같으나 두 포인터의 이동을 각각 다른 방법으로 사용 (ex. 하나는 계속 고정 상태이거나 둘 다 각각의 다른 이동 속도를 가지는 등)
