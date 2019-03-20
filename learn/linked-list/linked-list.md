@@ -1,6 +1,6 @@
 # Linked List
 ## Introduction
-- linear 데이터 구조로서 각각의 요소가 선형으로 연결된 다른 요소의 참조를 가지고 있는 데이터 구조이다
+- linear 데이터 구조로서 각각의 요소가 선형으로 연결된 다음 요소의 참조를 가지고 있는 데이터 구조이다
 ## Introduction - Singly Linked List
 - 요소가 다음 요소의 참조만을 가지고 있음
 - 요소에 엑세스 할 경우 처음부터 순차적으로 이동하기 때문에 O(N) 가 된다. 대신 삽입, 삭제에서의 성능이 좋다
@@ -14,3 +14,12 @@
 - 공간복잡성은 O(1). 시간복잡성은 O(N)이 된다
 ## Reverse Linked List
 - 링크드 리스트 역순. 헤드 이외의 노드를 순서대로 헤드로 만들어서 시간복잡도 O(N). 공간 복잡도 O(1)
+## Summary - Linked List Classic Problems
+- 포인트를 여러개 사용해서 문제를 해결하자
+## Introduction - Doubly Linked List
+- linear 데이터 구조로서 각각의 요소가 선형으로 연결된 이전 요소와 다음 요소의 참조를 가지고 있는 데이터 구조이다
+- Linked List에서는 삭제나 삽입 시 다음 요소만 고려하면 되었지만 이 경우에는 전후의 요소를 전부 이어줘야 한다
+## Add Operation - Doubly Linked List
+- 삽입 시 새 노드의 next와 prev를 연결 시켜준 뒤 이전 노드의 next와 다음 노드의 prev를 새 노드에 연결 시켜준다
+## Delete Operation - Doubly Linked List
+- 삭제할 노드의 이전 노드와 다음 노드를 연결
