@@ -9,3 +9,5 @@
 ## Circular Queue - Implementation
 - 배열과 head/tail 두개의 포인터를 이용해서 queue 구현
 ## Queue - Usage
+## Queue and BFS
+- Breadth-First Search. 노드에서 최단 경로 찾기. 큐를 이용한 선입선출로 
