@@ -11,3 +11,7 @@
 ## Queue - Usage
 ## Queue and BFS
 - Breadth-First Search. 노드에서 최단 경로 찾기. 큐를 이용한 선입선출로 
+## Last-in-first-out Data Structure
+- LIFO. top에 데이터가 순차적으로 push되고 pop할 경우 역순으로 하나씩 제거되는 자료구조
+## Stack - Usage
+- 보편적인 언어에는 빌드되어 있으니 재정의 할 필요는 없고 pop, push, get the top element가 
